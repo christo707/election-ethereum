@@ -1,6 +1,7 @@
-# Pet Shop Truffle Box
 
-This box has all you need to get started with our [Pet Shop tutorial](http://truffleframework.com/tutorials/pet-shop).
+# election-ethereum
+
+Ethereum Dapp for Conduction elections between 4 Default candidates.
 
 ## Installation
 
@@ -8,15 +9,9 @@ This box has all you need to get started with our [Pet Shop tutorial](http://tru
     ```javascript
     npm install -g truffle
     ```
-
-2. Download the box. This also takes care of installing the necessary dependencies.
+2. Install Dependencies
     ```javascript
-    truffle unbox pet-shop
-    ```
-
-3. Run the development console.
-    ```javascript
-    truffle develop
+    npm i
     ```
 
 4. Compile and migrate the smart contracts. Note inside the development console we don't preface commands with `truffle`.
@@ -31,10 +26,4 @@ This box has all you need to get started with our [Pet Shop tutorial](http://tru
     npm run dev
     ```
 
-**NOTE**: This box is not a complete dapp, but the starting point for the [Pet Shop tutorial](http://truffleframework.com/tutorials/pet-shop). You'll need to complete that for this to function.
 
-## FAQ
-
-* __How do I use this with the EthereumJS TestRPC?__
-
-    It's as easy as modifying the config file! [Check out our documentation on adding network configurations](http://truffleframework.com/docs/advanced/configuration#networks). Depending on the port you're using, you'll also need to update line 16 of `src/js/app.js`.
